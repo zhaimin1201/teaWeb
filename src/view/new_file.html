@@ -1,0 +1,26 @@
+<!--<!DOCTYPE html>-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../../lib/jquery.js"></script>
+	</head>
+	<body>
+		<input type="button" id="telephone" />
+		<script>
+			$(function(){
+				$("input[type=button]").on("click",function(){
+					
+					$.ajax({
+						type:"get",
+						url:"http://114.67.224.249/tea/category/getCategorylist.do",
+						success:function(msg){
+							console.log(msg)
+						}
+					});
+					
+				})
+			})
+		</script>
+	</body>
+</html>

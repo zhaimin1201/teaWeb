@@ -1,0 +1,26 @@
+{
+  "name": "teaApp",
+  "authors": [
+    "zhaimin"
+  ],
+  "description": "angularjs",
+  "main": "",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.7",
+    "requirejs": "^2.3.5",
+    "angular-ui-router": "ui-router#^1.0.11"
+  }
+}
